@@ -5,6 +5,7 @@ module.exports = defineConfig({
   allureAddVideoOnPass: true,
   allureSkipAutomaticScreenshots: true,
   e2e: {
+    projectId: "bsgb2n",
     setupNodeEvents(on, config) {
       // implement node event listeners here
       allureWriter(on, config);
